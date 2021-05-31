@@ -3,6 +3,7 @@ body {
     helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif !important;
   height: 100%;
   line-height: 1.5;
+  vertical-align: baseline;
 }
 ::selection {
   background-color: #00ff90;
