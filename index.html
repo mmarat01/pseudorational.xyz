@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="utf-8" />
@@ -7,51 +6,11 @@
     <title>Mijael Maratuech Seminario</title>
     <meta name="description" content="Mijael Maratuech Seminario's page" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Icon by hirschwolf from flaticon.com: https://www.flaticon.com/authors/hirschwolf -->
+    <link rel="icon" href="rec.png" />
     <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
     <link rel="stylesheet" href="https://unpkg.com/concrete.css" />
-    <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-          segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial,
-          sans-serif !important;
-        height: 100%;
-      }
-      h1 {
-        font-size: 5rem;
-        margin-bottom: 0;
-        font-weight: 800;
-      }
-      .title {
-        margin-top: 8rem;
-      }
-      .subtitle {
-        margin-top: 1rem;
-      }
-      .space-right {
-        margin-right: 1rem;
-      }
-      .space-bottom {
-        margin-bottom: 3rem;
-      }
-      .space-top {
-        margin-top: 3rem;
-      }
-      details {
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-      }
-      details summary > * {
-        display: inline;
-      }
-      footer {
-        text-align: center;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 60px;
-      }
-    </style>
-    <script src="" defer></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="container space-bottom">
@@ -84,32 +43,180 @@
     </header>
     <main class="container">
       <details>
-        <summary><h2>Intro</h2></summary>
-        <p>This is who he is</p>
+        <summary><h2 class="tighten">Interests</h2></summary>
+        <p>
+          Passionate about software engineering as a whole, particularly
+          attracted to the web ecosystem: from UI and UX, to infrastructure,
+          scalability, and performance. A generalist at heart, always willing to
+          wear multiple hats. Secondary interests in product strategy and design
+          systems.
+        </p>
       </details>
       <details>
-        <summary><h2>Education</h2></summary>
-        <p>He's studied at places</p>
+        <summary><h2>School</h2></summary>
+        <ul>
+          <li>
+            <span class="bolden"
+              >Tufts University - Computer Science, B.S.</span
+            >
+            (Sept. 2019 - May 2022)
+          </li>
+          <ul>
+            <li>
+              Relevant coursework in: Data Structures, Algorithms, Web
+              Development, Machine Structure and Assembly Language Programming,
+              OOP for Graphical User Interfaces, Cybersecurity.
+            </li>
+            <li>Member of Tufts' cybersecurity club, JumboSec.</li>
+            <li>
+              Co-president of the DIY music and art booking collective, Applejam
+              Productions.
+            </li>
+          </ul>
+          <li>
+            <span class="bolden"
+              >University of Illinois at Chicago - Transferred out</span
+            >
+            (Aug. 2018 - May 2019)
+          </li>
+          <ul>
+            <li>
+              Took general coursework in the Humanities and Social Sciences.
+            </li>
+          </ul>
+        </ul>
       </details>
       <details>
-        <summary><h2>Work Experience</h2></summary>
-        <p>He's worked places</p>
+        <summary><h2>Work</h2></summary>
+        <ul>
+          <li>
+            <span class="bolden"
+              >Athenahealth - Software Development Intern</span
+            >
+            (starting June 2021)
+          </li>
+          <ul>
+            <li>Joining the Platform/Infrastructure team.</li>
+          </ul>
+          <li>
+            <span class="bolden">Hack.Diversity - Fellow </span> (Jan. 2021 -
+            Present)
+          </li>
+          <ul>
+            <li>
+              Built a
+              <a
+                href="https://github.com/mmarat01/DeHackathon-GOAT-submission"
+                target="_blank"
+                rel="noopener noreferrer"
+                >participatory budgeting web application</a
+              >
+              using React, Express, and MongoDB for an 'extended hackathon'
+              focused on building products for civic and social good.
+            </li>
+            <li>
+              Participated in design thinking and iteration workshops led by
+              design consultancy
+              <a
+                href="https://www.ideo.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >IDEO</a
+              >.
+            </li>
+          </ul>
+          <li>
+            <span class="bolden">JumboCode - Software Developer</span> (Oct.
+            2020 - May 2021)
+          </li>
+          <ul>
+            <li>
+              Built the API (Express/MongoDB) for the administrative portal of a
+              web app for the RIA House organization.
+            </li>
+            <li>
+              Designed the database model for the administrative portal's
+              resources.
+            </li>
+            <li>
+              Wrote documentation to facilitate integration of backend with
+              frontend.
+            </li>
+          </ul>
+          <li>
+            <span class="bolden"
+              >Human-Robot Interaction Laboratory - Research Assistant</span
+            >
+            (June 2020 - August 2020)
+          </li>
+          <ul>
+            <li>
+              Transcribed 20+ experiment videos in order to build a corpus
+              research dataset.
+            </li>
+            <li>Automated some simple tasks with C++ code.</li>
+            <li>
+              Extracted utterance, location, and eye-tracking data, using
+              specialized software.
+            </li>
+          </ul>
+        </ul>
       </details>
       <details>
         <summary><h2>Skills</h2></summary>
-        <p>He knows some things</p>
+        <ul>
+          <li class="bolden">Languages:</li>
+          <ul>
+            <li>Javascript (Node.js, ES6+)</li>
+            <li>HTML/CSS</li>
+            <li>C</li>
+            <li>Python</li>
+          </ul>
+          <li class="bolden">Frameworks and DB:</li>
+          <ul>
+            <li>Express</li>
+            <li>React</li>
+            <li>MongoDB (Mongoose)</li>
+          </ul>
+          <li class="bolden">Others:</li>
+          <ul>
+            <li>Git</li>
+            <li>Linux</li>
+            <li>Figma</li>
+          </ul>
+        </ul>
       </details>
       <details>
-        <summary><h2>More</h2></summary>
-        <p>Interested in a bunch of other things.</p>
+        <summary><h2>Current</h2></summary>
+        <ul>
+          <li>
+            Building
+            <a
+              href="https://github.com/mmarat01/knowledge-base"
+              target="_blank"
+              rel="noopener noreferrer"
+              >a thing </a
+            >with React and JSS.
+          </li>
+          <li>Learning about Docker/Kubernetes and other DevOps tooling.</li>
+          <li>Watching the Fran Lebowitz series on Netflix.</li>
+          <li>Listening to a lot of Radiohead (Kid A and In Rainbows).</li>
+          <li>Thinking about adding themes to this website.</li>
+        </ul>
       </details>
       <hr class="space-top" />
     </main>
-    <footer class="container space-top">
+    <footer class="container space-top space-bottom">
       HTML,
       <a href="https://concrete.style" target="_blank" rel="noopener noreferrer"
         >concrete</a
-      >, and ♥.
+      >, and ♥.&nbsp;
+      <a
+        href="https://github.com/mmarat01/mmarat01.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Source</a
+      >.
     </footer>
   </body>
 </html>
