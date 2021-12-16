@@ -2,3 +2,6 @@
 personal website.  
 
 revamping this thing after it broke.
+
+tachyons
+will probs use jekyll
