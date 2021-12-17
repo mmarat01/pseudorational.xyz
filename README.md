@@ -6,7 +6,7 @@ revamping this thing after it broke.
 tachyons  
 jekyll  
 
-TODO:  
+## TODO:  
 - [ ] define layouts  
 - [ ] define includes  
 - [ ] ensure successful build when deployed (paths paths paths)  
