@@ -35,5 +35,3 @@ themeTogglingButton.addEventListener('click', () => {
   }
   localStorage.setItem('theme-preference', currentThemePreference);
 });
-
-//todo?: rewrite this as a state machine kind of thing à la xstate
