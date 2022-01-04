@@ -1,3 +1,6 @@
+/* inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* variables */
 :root {
   --black:  #121212;
@@ -6,7 +9,7 @@
 
 /* body */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   max-width: 38rem;
   padding: 2rem;
