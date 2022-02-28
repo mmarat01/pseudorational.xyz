@@ -1,5 +1,5 @@
 # mmarat01.github.io
-personal website, now hosted with AWS, on S3 via Cloudfront.
+personal website, now hosted on sourcehut pages.  
 
-## TODO 
-- [ ] move to sourcehut pages
+previously hosted with AWS, on S3 via Cloudfront.
+
